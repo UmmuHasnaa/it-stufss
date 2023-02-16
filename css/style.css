@@ -85,7 +85,9 @@ nav ul li a:hover{
 
 
 }
-.tr{ font-style: italic; float: left; border-radius: 8px;background-color:orange; height: 1000%; }
+.form-title h1{text-align: center;}
+.tr{ font-style: italic; float: left; border-radius: 8px;
+    background-color:orange; height: 1000%; }
 div input[type=submit]{width: 100px; padding: 12px 20px; 
     text-align: center; cursor: pointers;
     margin: 8px 0;display: inline-block; float: inline-start;}
@@ -96,4 +98,15 @@ h1 p{text-align: center;
     padding: 20px;
     font-size: 500%;
     font-family: Arial, Helvetica, sans-serif;}
-    .myfood img {float: right; border-radius: 4px;}
+.myfood img {float: right; border-radius: 4px;}
+    .form1{ margin: auto 40%;border-style:solid; border-radius: 5px;}
+.form-container .form-group input[type="submit"]{
+        background:rgb(223, 136, 223); 
+        color: white; 
+        font-size: 10px;
+        text-align: center;
+        margin:20px 20px; flex: auto;
+        cursor: pointer;}
+body .form1{background-color: white; padding-top: 20px;}
+        body{background-color:rgb(235, 167, 235)}
+        .form-group .group{ padding-left: 60px;}
